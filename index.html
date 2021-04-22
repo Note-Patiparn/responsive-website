@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Notexpen">
+    <title>Responsive Navigation</title>
+    <link href="https://fonts.googleapis.com/css?family=Lora|Ubuntu:300,400,700&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container flex">
+            <div class="logo">
+                <h1 class="title">Living the simple life</h1>
+                <p class="subtitle">A BLOG EXPLORING MINIMALISM IN LIFE</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="current-page">HOME</a></li>
+                    <li><a href="aboutme.html" >ABOUT ME</a></li>
+                    <li><a href="recent-posts.html" >RECENT POSTS</a></li>
+                </ul>
+            </nav>
+        </div>   <!-- / container -->
+    </header>    
+
+    <div class="container flex">
+        <main role="main"> <!-- / to support internet explorer -->
+            <article class="article-featured">
+                <h2 class="article-title">Finding simplicity in life</h2>
+                <img src="images/img1.jpeg" alt="view" class="article-img">
+                <p class="article-info">July 23, 2019  |  3 comments</p>
+                <p class="article-body">
+                    <span class="bold">Life can get complicated really quickly</span>, but it doesn't have to be! There are many ways to simplify your life,<a href="#" class="article-body-link">a few of which we've explored in the past</a>. This week we're taking a bit of a approach though, in how you can find simplicity in the life you already living. 
+                </p>
+                <a href="#" class="artical-read-more">continue reading</a>
+            </article>
+
+            <article class="article-recent">
+                <div class="article-recent-main">
+                    <h2 class="article-title">
+                        Keeping cooking simple
+                    </h2>
+                    <p class="article-body">
+                        Food is a very important part of everyone's life. If you want to be healthy, you have to eat healthy. One of the easiest ways to do that is to keep your cooking nice and simple. 
+                    </p>
+                    <a href="#" class="artical-read-more">continue reading</a>
+                </div>
+                <div class="article-recent-secondary">
+                    <img src="images/img2.jpeg" alt="view" class="article-img">
+                    <p class="article-info">
+                        July 19, 2019  |  3 comments
+                    </p>
+                </div>
+            </article>
+
+            <article class="article-recent">
+                <div class="article-recent-main">
+                    <h2 class="article-title">
+                        Simplicity and work
+                    </h2>
+                    <p class="article-body">
+                        Work is often a major source of stress. People get frustrated, it ruins their relationship with others and it leads to burnout. By keeping your work life as simple as possible, it will help balance everything out. 
+                    </p>
+                    <a href="#" class="artical-read-more">continue reading</a>
+                </div>
+                <div class="article-recent-secondary">
+                    <img src="images/img3.jpeg" alt="view" class="article-img">
+                    <p class="article-info">
+                        July 12, 2019  |  3 comments
+                    </p>
+                </div>
+            </article>
+
+            <article class="article-recent">
+                <div class="article-recent-main">
+                    <h2 class="article-title">
+                        Simple decorations
+                    </h2>
+                    <p class="article-body">
+                        A home isn't a home until you've decorated a little. People either don't decorate, or they go overboard and it doesn't have the impact they were hoping for. Staying simple will help draw the eye where you want it to and make things pop like never before. 
+                    </p>
+                    <a href="#" class="artical-read-more">continue reading</a>
+                </div>
+                <div class="article-recent-secondary">
+                    <img src="images/img4.jpeg" alt="view" class="article-img">
+                    <p class="article-info">
+                        July 3, 2019  |  3 comments
+                    </p>
+                </div>
+            </article>
+        </main>
+        <aside class="sidebar">
+            <div class="sidebar-widget">
+                <h2 class="sidebar-widget-title">
+                    About me
+                </h2> 
+                <img src="images/aboueme.jpg" alt="portait" class="sidebar-widget-img">
+                <p class="sidebar-widget-body">
+                    I find life better, and I'm happier, when things are nice and simple.
+                </p>
+            </div>
+            <div class="sidebar-widget">
+                <h2 class="sidebar-widget-title">Recent posts</h2>
+                <div class="sidebar-widget-recent-post">
+                    <h3 class="sidebar-widget-recent-post-title">Keeping cooking simple</h3>
+                    <img src="images/img5.jpeg" alt="" class="sidebar-widget-img">
+                </div>
+                <div class="sidebar-widget-recent-post">
+                    <h3 class="sidebar-widget-recent-post-title">Simplicity and work</h3>
+                    <img src="images/img6.jpeg" alt="" class="sidebar-widget-img">
+                </div>
+                <div class="sidebar-widget-recent-post">
+                    <h3 class="sidebar-widget-recent-post-title">Simple decorations</h3>
+                    <img src="images/img7.jpeg" alt="" class="sidebar-widget-img">
+                </div> 
+            </div>    
+        </aside>
+    </div> <!-- / content container -->
+        <footer>
+            <p class="bold">Living the Simple Life</p>
+            <p>Copyright 2021</p>
+        </footer>
+</body>
+</html>
